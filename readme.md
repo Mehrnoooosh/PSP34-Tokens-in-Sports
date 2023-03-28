@@ -19,7 +19,7 @@ The sports teams and organizations will create and manage the tokens by deployin
 
 
 
-# cargo contract build
-# cargo contract test
-# cargo contract deploy
+#cargo contract build
+#cargo contract test
+#cargo contract deploy
      
