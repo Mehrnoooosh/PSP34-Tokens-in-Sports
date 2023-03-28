@@ -1,0 +1,15 @@
+[package]
+name = "psp34-sports"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ink_lang = { version = "3", default-features = false }
+ink_env = { version = "3", default-features = false }
+
+[dev-dependencies]
+ink-as-dependency = { version = "3", default-features = false }
+ink-generate-contract-abi = { version = "3", default-features = false }
+
+[features]
+std = ["ink_env/derive"]
